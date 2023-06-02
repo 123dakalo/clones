@@ -1,0 +1,127 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: rgba(235, 229, 229, 0.918);
+}
+.fbc{
+    padding-top: 50px;
+    text-align: center;
+}
+.imgr{
+    width: 240px;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.center{
+    text-align: center;
+}
+.center2{
+    margin-left: 569px;
+    box-sizing: border-box;
+    border: 1px solid white;
+    width: 400px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, red);
+    background-color: white;
+    position: absolute;
+    margin-bottom: 40px;
+}
+.label{
+    padding: 8px;
+    font-size: 10px;
+}
+h1{
+    font-weight: normal;
+}
+.btn1{
+    margin-bottom: 13px;
+    padding: 13px;
+    width: 300px;
+    border: 1px solid rgb(168, 165, 165);
+    border-radius: 4px;
+}
+.btn2{
+    padding: 13px;
+    margin-bottom: 13px;
+    width: 300px;
+    border: 1px solid rgb(168, 165, 165);
+    border-radius: 4px;  
+}
+.btn2:hover{
+    border-color: #1877f2;
+}
+.log{
+    width: 326px;
+    padding: 13px;
+    border: 1px solid rgb(168, 165, 165);
+    border-radius: 4px;
+    background-color: #1877f2;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    cursor: pointer;
+    padding: 0 16px;
+    font-weight: 700;
+    transition: opacity, 0.7s;
+}
+.log:hover{
+    opacity: 0.8;
+}
+.link{
+    padding: 13px;
+}
+.link a{
+    color: rgb(0, 128, 255);
+    font-size: 18px;
+    font-weight:lighter ;
+    text-decoration: none;
+}
+.link a:hover{
+    text-decoration: underline;
+}
+.create{
+    padding: 16px;
+    width: 210px;
+    background-color: green;
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+    margin: 10px;
+    transition: background-color .6s;
+    margin-bottom: 30px;
+}
+.create:hover{
+    opacity: 0.8;
+}
+.xx{
+    font-size: 8px;
+    color: grey;
+}
+.hhh::before{
+    content: "";
+    display: block;
+    width: 185px;
+    height: 1px;
+    background: grey;
+    position: absolute;
+    left: 0%;
+    top: 73.5%;
+}
+.hhh::after{
+    content: "";
+    display: block;
+    width: 185px;
+    height: 1px;
+    background: grey;
+    position: absolute;
+    right: 0%;
+    top: 73.5%;
+}
